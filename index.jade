@@ -9,10 +9,27 @@ html
     link(href='css/main.css', rel='stylesheet')
     title FCC -    
   body
-    // comment you can see in html
-    h1
-    .navbar
-      ul.nav
-        li.item
-          a(href="localhost/home") home
+    .container
+      .sidebar
+        h2 navigation
+        form
+          div.wrap-label
+            .text-label.first-text all
+            label.switch
+              input(type='checkbox' checked='checked').all
+              .slider.round
+          div.wrap-label
+            .text-label online
+            label.switch
+              input(type='checkbox' ).online
+              .slider.round
+          div.wrap-label
+            .text-label offline
+            label.switch
+              input(type='checkbox').offline
+              .slider.round
 
+      .content
+        h1.
+          TwichTv Free Code Camp
+        ul.box
