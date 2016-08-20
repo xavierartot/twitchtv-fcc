@@ -1,0 +1,1 @@
+- optimize the works with Vim, especialty with ctrlp.vim and the auto-completion with Jade.
